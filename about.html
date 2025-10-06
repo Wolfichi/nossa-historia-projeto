@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Nossa história</title>
+    <script src="script/script.js" defer></script>
 </head>
 <body>
     <header class="header__menu">
         <nav class="header__menu__menu">
             <a class="header__menu__link" href="index.html">Home</a>
-            <a class="header__menu__link" href="about.html">About</a>
+            <a class="header__menu__link" href="about.html">Nossa História</a>
         </nav>
     </header>
     <main class="apresentacao">
@@ -28,6 +29,11 @@
         </video>
     </main>
     <footer>
+        <audio controls autoplay loop id="music" class="musica">
+            <source src="music/1738550346.mp3" type="audio/mpeg">
+        </audio>
+        <button onclick="play()" type="button"></button>
+        <button onclick="pause()" type="button"></button>
         <p class="rodape">
             Como faço pra conquistar seu coração?
         </p>

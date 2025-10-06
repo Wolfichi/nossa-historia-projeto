@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Nossa história</title>
+    <script src="script/script.js" defer></script>
 </head>
+
 <body>
     <header class="header__menu">
         <nav class="header__menu__menu">
             <a class="header__menu__link" href="index.html">Home</a>
             <a class="header__menu__link" href="about.html">Sobre nós</a>
         </nav>
-    </header>    
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo"> Este foi o primeiro dia que nos conhecemos pessoalmente <strong class="destaque-1">Garota mais linda do mundo</strong>
+            <h1 class="apresentacao__conteudo__titulo"> Este foi o primeiro dia que nos conhecemos pessoalmente <strong
+                    class="destaque-1">Garota mais linda do mundo</strong>
             </h1>
-            <p class="apresentacao__conteudo__texto">Meu amor, sei que não consigo ainda fazer nem metade das coisas que gostaria, mas estou caminhando pra isso, estar contigo e proporcionar tudo oque imagino. Se voce quiser compartilhar dessa vida comigo. <span class="destaque-paragrafo"> Amor, carinho, companheirismo, -leitada no utero-</span>. Coisas que não vao faltar.
+            <p class="apresentacao__conteudo__texto">Meu amor, sei que não consigo ainda fazer nem metade das coisas que
+                gostaria, mas estou caminhando pra isso, estar contigo e proporcionar tudo oque imagino. Se voce quiser
+                compartilhar dessa vida comigo. <span class="destaque-paragrafo"> Amor, carinho, companheirismo,
+                    -leitada no utero-</span>. Coisas que não vao faltar.
             </p>
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Redes do seu amor:</h2>
@@ -39,9 +46,15 @@
         <img class="apresentacao__imagem" src="images/IMG-20251004-WA0000.jpg" alt="nos dois">
     </main>
     <footer>
+        <audio controls autoplay loop id="music" class="musica">
+            <source src="music/1738550346.mp3" type="audio/mpeg">
+        </audio>
+        <button onclick="play()" type="button"></button>
+        <button onclick="pause()" type="button"></button>
         <p class="rodape">
             Como faço pra conquistar seu coração?
         </p>
     </footer>
 </body>
+
 </html>
